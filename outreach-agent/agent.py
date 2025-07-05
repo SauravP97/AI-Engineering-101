@@ -143,10 +143,10 @@ def build_graph():
       'receiver_profile': RECEIVER_PROFILE,
   })
 
-  print(graph.get_graph().draw_mermaid())
+  # print(graph.get_graph().draw_mermaid())
 
   return response
 
 
 agent_response = build_graph()
-# print(f'Referral Pitch {agent_response["pitch"]}')
+print(f'Referral Pitch {agent_response["pitch"]}')
