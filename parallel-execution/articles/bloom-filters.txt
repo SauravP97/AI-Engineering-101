@@ -1,0 +1,51 @@
+Bloom Filter
+
+Introduction
+Bloom Filters are compact data-structures that are responsible for answering the membership queries. They successfully filter out the elements which are not a part of the set.
+
+In summary the Bloom Filters are responsible for answering whether an element is a part of a given set or not. Suppose we have a list of elements present in a set, say S. Now we want to check whether an element X is a part of the set S or not. In this case Bloom Filters can answer in two ways:
+
+Element X can or can not be a part of Set S: The Bloom Filters can respond with a Maybe! This means that there is some probability for the element X to be present in the set S. The more efficient the filters, higher will be the prediction of probability for an element to be present in the set.
+
+Element X is definitely not a part of Set S: The Bloom Filters can respond with a Definitely Not! This means that there is a 0 probability for the element X to be present in the set S. In this case we can be completely sure that the element is not present in the set.
+
+In this way Bloom Filters are always able to recognise True Negatives but can not always recognize True Positives and hence can generate some False Positives. These data structures are generally used in those scenarios where False Positives are accepted.
+
+
+For Example we can raise a false Alarm for a Fire hazard which did not take place but we can never avoid raising an Alarm for an actual fire Hazard.
+
+Implementing a Standard Bloom Filter
+A Standard Bloom Filter can be implemented through a group of Hash Functions.
+
+Standard Bloom Filters work most efficiently when we know the size of our search space in advance. Suppose for us the size of our search space was N. Now let’s understand how we can insert an element in the Bloom Filter data-structure and how we can answer the Membership queries.
+
+Inserting an element into Bloom Filter
+Suppose we have an element X which needs to be inserted into the Bloom Filter. We will take the Bloom Filter to be a vector of size N. Remember N was the size of our search space!
+
+Initially the Bloom Filter vector has all its values set to 0 denoting an empty filter.
+
+We will also have a set of K hash functions H where:
+
+H = {h1, h2, h3, … , hk}
+
+These hash functions will generate a distributed random value in the range from 0 to N-1.
+
+Now, during insertion we will compute the hash value of X with all the K hash functions and set the corresponding addresses in the Bloom Filter vector to 1.
+
+
+The Algorithm for this method can be described as follows.
+
+
+Searching an element in the Bloom Filter
+Suppose we have an element X which needs to be checked if it is present in a set S or not. Given that all the elements of the set S are present in the Bloom Filter (BF), we will use the data-structure to answer the Membership queries.
+
+To answer this we again need to perform the hash of element X with all the K hash functions we talked about in the previous section. Once computed, we check whether for all the hash values the corresponding locations in the Bloom Filter vector are set to 1 or not. If any one of the locations is set to 0, we can safely say that the element does not exist in the set.
+
+The algorithm for the operation looks like this.
+
+It’s safe to say that the run time complexity of both the operations for setting an element into the Bloom Filters and the Membership query is O(K) where K is the size of the set of Hash Functions i.e. the number of distinct hash functions used in the Bloom Filter.
+
+Conclusion
+We discussed Bloom Filters in detail along with the implementation process of a Standard Bloom Filter. We also looked into how we can insert and search and element in the Bloom Filter along with their run-time complexity and code demonstrations.
+
+

@@ -1,0 +1,64 @@
+Graph Database - Trying out Neo4J
+Author: Saurav Prateek
+
+Introduction
+You must have heard of Graph data structures before. If not, a graph data structure stores data in the format of Nodes and Relationships between them which are also called Edges. A Graph database is similar to this structure which also stores relationship details between multiple entities which can be viewed in a graphical format. These structures can prove to be white-board friendly.
+
+Neo4J is a popular Graph database that stores nodes and relationships instead of classic tables or documents. As we mentioned before, the stored data is white-board friendly which means we can easily sketch the structure and ideas out on a whiteboard.
+
+Data Model for Neo4J
+Let’s explore what the Data Model in a Neo4J database is composed of. In Neo4J the information is organized as nodes, relationships and properties.
+
+Nodes
+Nodes can be considered as the core entities in the Graph database. Each node can have a Label which determines the Type of node in our database. These nodes can also have multiple properties.
+
+A basic Node can look like this in a Neo4J database.
+
+Properties
+As we discussed, every Node can be associated with a set of properties. The properties associated with every node can be described in the form of key-value pairs.
+
+Relationships
+Nodes can be related to each other through Relationships in the Neo4J database. This is equivalent to the Edges in the graph data structure. In the Graph data-structure we could add an undirected edge between two nodes but in Neo4J it’s mandatory to add a direction while creating a relationship between two nodes.
+
+Although Neo4J doesn’t allow us to create an undirected relationship, we can query an undirected relationship which allows Neo4J to ignore any particular direction and retrieve the relationship and connected nodes, no matter what the physical direction is.
+
+This allows the queries to be flexible and not force the user to know the physical direction of the relationship stored in the database.
+
+Cypher - A query language for Neo4J database
+Cypher is Neo4J’s graph query language that lets you retrieve data from the graph. Let’s try out Cypher to:
+
+Create Nodes with a specific set of Properties.
+Relationships between the Nodes.
+Query / Visualize the Nodes and their Relationships created.
+
+Creating Nodes with a specific set of Properties
+Let’s write queries in Cypher to create some Nodes with a specific set of Properties.
+
+Create 3 Nodes of Type: Person
+
+The above Cypher query will create 3 Person nodes with the mentioned properties. I query the database to check if the nodes were created and it looks like this.
+
+Create a Node of Type: Post
+
+The above Cypher query will create 1 Post node with the mentioned properties. I query the database to check if the nodes were created and it looks like this.
+
+Creating Relationships between the Nodes
+Let’s write queries in Cypher to create Relationships between the previously created nodes. We will be creating the following nodes.
+
+Person: Max IS_FOLLOWED_BY Person: Dave
+Person: Max FOLLOWS Person: Alex
+Person: Max SHARED Post: “Hey I am Saurav!”
+Person: Dave LIKED Post: “Hey I am Saurav!”
+Person: Alex COMMENTED_ON Post: “Hey I am Saurav!”
+
+Create 4 Relationships between Nodes
+
+The above Cypher query will create 4 Relationships between the nodes. I query the database to check if the relationships were created and it looks like this.
+
+
+We created an entire Graph where we have multiple People who can follow each other and can Like, Share or Comment on a Post.
+
+I hope this hands-on was helpful!
+
+
+
