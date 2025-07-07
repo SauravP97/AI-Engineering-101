@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 from typing_extensions import TypedDict, Annotated
 from langgraph.graph import START, StateGraph, END
 
+import time
+
 BLOOM_FILTER_ARTICLE_LINK = "bloom-filters.txt"
 GRAPH_DB_ARTICLE_LINK = "graph-db.txt"
 
@@ -82,9 +84,7 @@ def join_node(state: SharedState) -> SharedState:
     return state
 
 
-def build_graph():
-  load_dotenv()
-
+def build_parallel_graph():
   # Building a Graph
   # State of the Graph that will be shared among nodes.
   workflow = StateGraph(SharedState)
@@ -116,5 +116,40 @@ def build_graph():
 
   return response
 
-agent_response = build_graph()
+
+def build_serial_graph():
+  # Building a Graph
+  # State of the Graph that will be shared among nodes.
+  workflow = StateGraph(SharedState)
+
+  # Add nodes.
+  workflow.add_node("get_bloom_filter_article_summary", get_bloom_filter_article_summary)
+  workflow.add_node("get_graph_db_article_summary", get_graph_db_article_summary)
+  workflow.add_node("join_node", join_node)
+
+  # Define the edges of the graph.
+  workflow.add_edge(START, "get_bloom_filter_article_summary")
+  workflow.add_edge("get_bloom_filter_article_summary", "get_graph_db_article_summary")
+  workflow.add_edge("get_graph_db_article_summary", "join_node")
+  workflow.add_edge("join_node", END)
+
+  graph = workflow.compile()
+
+  response = graph.invoke({
+      'bloom_filter_article_link': BLOOM_FILTER_ARTICLE_LINK,
+      'graph_db_article_link': GRAPH_DB_ARTICLE_LINK,
+  })
+
+  # print(graph.get_graph().draw_mermaid())
+
+  return response
+
+
+load_dotenv()
+start_time = time.perf_counter()
+agent_response = build_parallel_graph()
+# agent_response = build_serial_graph()
+end_time = time.perf_counter()
+
 print(f'\n\n\n Summary generated: \n\n {agent_response["summary"]}')
+print(f'\n\n\n Total execution time: {end_time - start_time:.2f} seconds')
