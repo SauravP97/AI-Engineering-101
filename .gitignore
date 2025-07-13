@@ -2,3 +2,4 @@ saurav-env/*
 outreach-agent/.env
 parallel-execution/.env
 tool-calls/.env
+memory-agent/.env
