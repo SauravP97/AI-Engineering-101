@@ -35,7 +35,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 
 <img src="./media/memory-agent.png" width=520 height=300>
 
-- **Link**: [Watch here](https://youtu.be/Occy4R56hig?si=msX2C7GA4RfefZoQ)
+- **Link**: [Watch here](https://youtu.be/T2L9eC8ij7w?si=1u4RANWvgCkl2hnr)
 - **Description**:  This video explores a crucial concept: adding memory to your LangChain agents. Let’s walk through the process step-by-step, transforming your stateless agents into intelligent conversationalists who remember context and build upon past interactions. Get ready to build more sophisticated and human-like AI. 
 - **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/memory-agent)
 
