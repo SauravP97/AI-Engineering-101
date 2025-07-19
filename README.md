@@ -16,6 +16,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |4.  | :floppy_disk: Add Memory to your AI Agents, Context Management for LLMs             |  [Watch](https://youtu.be/T2L9eC8ij7w?si=1u4RANWvgCkl2hnr)   | 28.17    |
 |5.  | :dart: Debugging your Agentic Workflows, Threads & Checkpoints               |  [Watch](https://youtu.be/Iu6JB8SuS3U?si=Q09ra_fd7GQofg7B)   | 27.37    |
 
+---
 
 ### :pushpin: Episode 1: Building a Referral Outreach Agentic Workflow in LangChain | LangGraph, Python (from scratch)
 
