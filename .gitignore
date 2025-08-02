@@ -5,3 +5,4 @@ tool-calls/.env
 memory-agent/.env
 debugging-workflow/.env
 few-shot-prompting/.env
+text-to-sql/.env
