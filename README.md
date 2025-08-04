@@ -1,4 +1,4 @@
-# AI Engineering 101 - Agentic Workflow collections [YouTube]
+# AI Engineering 101 - Agentic Workflow collections [YouTube] :headphones:
 
 <img src="./media/banner.png" width=520 height=300>
 
@@ -15,8 +15,8 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |3.  | :wrench: Tool Calling - Make LLMs talk to Database, APIs and Web               |  [Watch](https://youtu.be/Occy4R56hig?si=msX2C7GA4RfefZoQ)   | 24:45    |
 |4.  | :floppy_disk: Add Memory to your AI Agents, Context Management for LLMs             |  [Watch](https://youtu.be/T2L9eC8ij7w?si=1u4RANWvgCkl2hnr)   | 28:17    |
 |5.  | :dart: Debugging your Agentic Workflows, Threads & Checkpoints               |  [Watch](https://youtu.be/Iu6JB8SuS3U?si=Q09ra_fd7GQofg7B)   | 27:37    |
-|6.  | :dart: Building an Agentic workflow that creates personalized Linkedin Post (Few-shot Prompting)               |  [Watch](https://youtu.be/3knBxkLjDMk)   | 34:10    |
-|7.  | :dart: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
+|6.  | :pencil: Building an Agentic workflow that creates personalized Linkedin Post (Few-shot Prompting)               |  [Watch](https://youtu.be/3knBxkLjDMk)   | 34:10    |
+|7.  | :mushroom: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
 
 ---
 
