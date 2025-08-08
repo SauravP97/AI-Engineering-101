@@ -6,3 +6,5 @@ memory-agent/.env
 debugging-workflow/.env
 few-shot-prompting/.env
 text-to-sql/.env
+reasoning-agent/.env
+self-rag/.env
