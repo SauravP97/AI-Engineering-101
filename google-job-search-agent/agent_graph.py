@@ -7,7 +7,6 @@ from langchain import hub
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_mistralai import ChatMistralAI
 
 from dotenv import load_dotenv
 
@@ -36,7 +35,7 @@ MAX_ROLES = 3
 def get_all_urls(base_url, page=1):
     try:
         # Fetch the HTML content from the URL
-        response = requests.get(base_url + f'&page={page}' + f'&target_level=EARLY')
+        response = requests.get(base_url + f'&page={page}' + f'&target_level=MID')
         response.raise_for_status()  # This will raise an exception for bad responses (4xx or 5xx)
 
         # Parse the HTML content
@@ -113,8 +112,7 @@ def get_model(load_from_hugging_face=False):
 
         return ChatHuggingFace(llm=llm)
     
-    return ChatMistralAI(model="mistral-large-latest")
-    # return ChatOpenAI(model="gpt-4", temperature=0.0)
+    return ChatOpenAI(model="gpt-4", temperature=0.0)
 
 
 def get_resume_content():
@@ -229,6 +227,7 @@ def analyze_recommended_roles(recommended_roles, resume_content):
 
         reports.append({
             'title': recommended_role['title'],
+            'link': recommended_role['link'],
             'report': response
         })
 
@@ -251,7 +250,7 @@ if len(related_job_roles) > 0:
     final_report += '---\n\n'
 
     for generated_report in generated_reports:
-        final_report += f"## {generated_report['title']}\n\n"
+        final_report += f"## [{generated_report['title']}]({generated_report['link']})\n\n"
         final_report += f"{generated_report['report']}\n\n"
         final_report += '---\n\n'
     
