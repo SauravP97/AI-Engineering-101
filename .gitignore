@@ -8,3 +8,5 @@ few-shot-prompting/.env
 text-to-sql/.env
 reasoning-agent/.env
 self-rag/.env
+google-job-search-agent/.env
+gpt-oss-20b/*
