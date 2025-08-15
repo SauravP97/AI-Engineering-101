@@ -8,7 +8,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 
 ### Table of Contents
 
-|S.No| Episodes                                                              | Link         | Duration (mins) |
+|S.No| Episodes                                                              | Link         | Duration (h:m:s) |
 |:---| :-------------------------------------------------------------------- | :------:     | -------: |
 |1.  | :pager: Building a Referral Outreach Agentic Workflow in LangChain            |  [Watch](https://youtu.be/FjUNgQw4HZ8?si=_KhshHtjh3XxOAxV)   | 29:08    |
 |2.  | :rocket: Optimizing your Agentic workflow with Parallel Execution in LangGraph |  [Watch](https://youtu.be/mMzAbhnOgXQ?si=ul5oHiu01yUlPfRn)   | 32:12    |
@@ -17,7 +17,8 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |5.  | :dart: Debugging your Agentic Workflows, Threads & Checkpoints               |  [Watch](https://youtu.be/Iu6JB8SuS3U?si=Q09ra_fd7GQofg7B)   | 27:37    |
 |6.  | :pencil: Building an Agentic workflow that creates personalized Linkedin Post (Few-shot Prompting)               |  [Watch](https://youtu.be/3knBxkLjDMk)   | 34:10    |
 |7.  | :mushroom: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
-|8.  | :mushroom: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
+|8.  | :gift: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
+|9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies | LangChain | Python  |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 51:08    |
 
 ---
 
@@ -107,5 +108,18 @@ In this video, we'll go beyond simple queries and show you how to create a power
 - **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/self-rag)
 
 ---
+
+### :pushpin: Episode 9: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies | LangChain | Python
+
+<img src="./media/google-job-agent.png" width=620 height=300>
+
+- **Link**: [Watch here](https://youtu.be/H9zMp5wzQjc)
+- **Description**:  In this video, we'll build a powerful AI agent that helps you land your dream job at Google! 🚀 Using LangChain and Python, this agent analyzes open roles on Google Careers and cross-references them with your resume.
+We will build an Agent that can analyze your resume and open positions on the Google Careers page to recommend most relevant roles and then analyze those roles against your resume to prepare a detailed Report  documenting your strengths, gaps and preparation strategies.
+
+- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/google-job-search-agent)
+
+---
+
 More episodes coming up...
 Stay tuned, and subscribe to the [channel](https://www.youtube.com/@saurav_prateek_) :smiley:

@@ -15,10 +15,6 @@ from prompts import RESUME_ANALYSIS_PROMPT, RELATABLE_JOB_ROLES_PROMPT
 import requests
 
 
-KNOWLEDGE_BASE_URLS = [
-    'https://www.google.com/about/careers/applications/jobs/results?q=%22software%20engineer%22&employment_type=FULL_TIME&company=Google&location=India&page=10'
-]
-
 BASE_URL = 'https://www.google.com/about/careers/applications/jobs/results?q=%22software%20engineer%22&employment_type=FULL_TIME&company=Google&location=India'
 
 GOOGLE_JOB_LINK_PREFIX = 'https://www.google.com/about/careers/applications/'
