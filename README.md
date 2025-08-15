@@ -1,6 +1,6 @@
 # AI Engineering 101 - Agentic Workflow collections [YouTube] :headphones:
 
-<img src="./media/banner.png" width=520 height=300>
+<img src="./media/banner1.png" width=800 height=400>
 
 The repo holds the collection of Agentic workflows as a part of my [Youtube channel's](https://www.youtube.com/@saurav_prateek_) playlist "**AI Engineering 101**".
 
