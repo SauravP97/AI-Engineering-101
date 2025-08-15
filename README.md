@@ -18,7 +18,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |6.  | :pencil: Building an Agentic workflow that creates personalized Linkedin Post (Few-shot Prompting)               |  [Watch](https://youtu.be/3knBxkLjDMk)   | 34:10    |
 |7.  | :mushroom: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
 |8.  | :gift: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
-|9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 51:08    |
+|9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/AuOkG3iQFog)   | 50:34    |
 
 ---
 
@@ -113,7 +113,7 @@ In this video, we'll go beyond simple queries and show you how to create a power
 
 <img src="./media/google-job-agent.png" width=620 height=300>
 
-- **Link**: [Watch here](https://youtu.be/H9zMp5wzQjc)
+- **Link**: [Watch here](https://youtu.be/AuOkG3iQFog)
 - **Description**:  In this video, we'll build a powerful AI agent that helps you land your dream job at Google! 🚀 Using LangChain and Python, this agent analyzes open roles on Google Careers and cross-references them with your resume.
 We will build an Agent that can analyze your resume and open positions on the Google Careers page to recommend most relevant roles and then analyze those roles against your resume to prepare a detailed Report  documenting your strengths, gaps and preparation strategies.
 
