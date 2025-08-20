@@ -19,7 +19,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |7.  | :mushroom: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
 |8.  | :gift: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
 |9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/AuOkG3iQFog)   | 50:34    |
-|10.  | :blossom: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch]()   | 46:34    |
+|10.  | :golf: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch]()   | 46:34    |
 
 ---
 
