@@ -219,11 +219,12 @@ def build_graph():
 
 load_dotenv()
 
-# What is a Graph data-structure?
+# Explain Binary Heap?
 # What are word embeddings and how do they work?
 compiled_graph = build_graph()
+# print(compiled_graph.get_graph().draw_mermaid())
 shared_state = compiled_graph.invoke({
-    'question': "What is a Graph data-structure?"
+    'question': "Explain Binary Heap?"
 })
 
 print("\n Agent Response \n")

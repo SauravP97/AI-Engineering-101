@@ -19,6 +19,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |7.  | :mushroom: Building a Text to SQL Agent for handling complex database queries, LangChain, Python               |  [Watch](https://youtu.be/YXDA4kfW_Dg)   | 38:43    |
 |8.  | :gift: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
 |9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/AuOkG3iQFog)   | 50:34    |
+|10.  | :blossom: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch]()   | 46:34    |
 
 ---
 
@@ -120,6 +121,20 @@ We will build an Agent that can analyze your resume and open positions on the Go
 - **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/google-job-search-agent)
 
 ---
+
+### :pushpin: Episode 10: Building a Corrective RAG | Integrating Web Search as a fallback knowledge base | LangChain | Python
+
+<img src="./media/c-rag.png" width=520 height=300>
+
+- **Link**: [Watch here]()
+- **Description**:  In this video, we'll build a Corrective Retrieval Augmented Generation (C-RAG) workflow which integrates Web Search as a fallback knowledge base. We will go through the C-RAG paper which introduces the Retriever and a Generator module.
+We will build a Retrieval module that retrieves essential documents and performs knowledge refinement and a Generator module that generates answers for the question and the knowledge base.
+
+
+- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/corrective-rag)
+
+---
+
 
 More episodes coming up...
 Stay tuned, and subscribe to the [channel](https://www.youtube.com/@saurav_prateek_) :smiley:
