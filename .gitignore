@@ -11,3 +11,5 @@ self-rag/.env
 google-job-search-agent/.env
 gpt-oss-20b/*
 corrective-rag/.env
+fine-tune/*
+human-in-loop/.env
