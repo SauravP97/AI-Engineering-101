@@ -20,6 +20,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |8.  | :gift: Building a Self-RAG, Making your Agentic workflows critique with Self-Reflection               |  [Watch](https://youtu.be/H9zMp5wzQjc)   | 1:02:41    |
 |9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/AuOkG3iQFog)   | 50:34    |
 |10.  | :golf: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch](https://youtu.be/vAJqCDaU9Oc)   | 46:34    |
+|11.  | :raising_hand: Human in the Loop - Interrupting your Agentic Workflow for user input |  [Watch]()   | 26:43    |
 
 ---
 
@@ -135,6 +136,19 @@ We will build a Retrieval module that retrieves essential documents and performs
 
 ---
 
+### :pushpin: Episode 11: Human in the Loop | Interrupting your Agentic Workflow for user input | LangChain | Python
+
+<img src="./media/human-in-loop.png" width=620 height=300>
+
+- **Link**: [Watch here]()
+- **Description**:   In this video, we dive into the fascinating world of Human-in-the-Loop (HIL) and show you how to seamlessly integrate human intervention into your AI agents using LangChain and Python.
+
+We'll explain this crucial concept and why it's a game-changer for building reliable and robust AI applications. Discover the power of pausing your autonomous agents to add real-time human expertise, validation, and course correction.
+
+
+- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/corrective-rag)
+
+---
 
 More episodes coming up...
 Stay tuned, and subscribe to the [channel](https://www.youtube.com/@saurav_prateek_) :smiley:
