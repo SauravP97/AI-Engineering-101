@@ -144,7 +144,7 @@ We will build a Retrieval module that retrieves essential documents and performs
 - **Description**:   In this video, we dive into the fascinating world of Human-in-the-Loop (HIL) and show you how to seamlessly integrate human intervention into your AI agents using LangChain and Python. We'll explain this crucial concept and why it's a game-changer for building reliable and robust AI applications. Discover the power of pausing your autonomous agents to add real-time human expertise, validation, and course correction.
 
 
-- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/corrective-rag)
+- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/human-in-loop)
 
 ---
 
