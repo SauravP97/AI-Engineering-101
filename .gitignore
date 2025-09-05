@@ -13,3 +13,4 @@ gpt-oss-20b/*
 corrective-rag/.env
 fine-tune/*
 human-in-loop/.env
+vector-embeddings/.env
