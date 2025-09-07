@@ -21,8 +21,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |9.  | :blossom: Agent to analyze Google Careers and your Resume to recommend open Roles and Preparation strategies |  [Watch](https://youtu.be/AuOkG3iQFog)   | 50:34    |
 |10.  | :golf: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch](https://youtu.be/vAJqCDaU9Oc)   | 46:34    |
 |11.  | :raising_hand: Human in the Loop - Interrupting your Agentic Workflow for user input |  [Watch](https://youtu.be/2Ox8Plu-uKw)   | 26:43    |
-|12.  | :telescope: Vector Embeddings for Semantic Analysis - Introducing Google Gemini Embedding Models
- |  [Watch](https://youtu.be/r1cZWdjKK7A?si)   | 28:33    |
+|12.  | :telescope: Vector Embeddings for Semantic Analysis - Introducing Google Gemini Embedding Models |  [Watch](https://youtu.be/r1cZWdjKK7A?si)   | 28:33    |
 
 ---
 
