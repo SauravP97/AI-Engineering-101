@@ -14,3 +14,5 @@ corrective-rag/.env
 fine-tune/*
 human-in-loop/.env
 vector-embeddings/.env
+mcp/.env
+deep-research/*
