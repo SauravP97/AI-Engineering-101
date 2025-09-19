@@ -16,3 +16,4 @@ human-in-loop/.env
 vector-embeddings/.env
 mcp/.env
 deep-research/.env
+gdg-agent-ai/.env
