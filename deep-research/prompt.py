@@ -45,3 +45,16 @@ A Web Search Result has the following format:
 QUERY_SPLITTER_PROMPT = """ 
 You are a query splitter and your goal is to inform whether then given query needs to be split into multiple sub queries or not. Based on the complexity of the query, you need to decide whether to split the query or not.
 """
+
+UNIQUE_RESEARCH_TOPIC_PROMPT = """
+You are a Research Topics Reviewer and your goal is to determine whether the given research topic is semantically different from the previous research topics which have already been addressed.
+
+[TASK INPUTS]
+1. **New Research Topic:** "{research_topic}"
+2. **Previous Research Topics:** "{previous_research_topics}"
+
+[INSTRUCTIONS]
+1. **Analyze New Topic:** Carefully review the `New_Research_Topic`.
+2. **Compare with Previous Topics:** Compare the `New_Research_Topic` with the `Previous_Research_Topics` to determine if it is semantically unique.
+3. **Decision Criteria:** A topic is considered semantically unique if it does not overlap significantly in scope, focus, or intent with any of the `Previous_Research_Topics`.
+"""
