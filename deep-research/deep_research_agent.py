@@ -369,10 +369,10 @@ def start_deep_research(task):
 
 
 task = {
-    "id": 62,
-    "topic": "Science & Technology",
+    "id": 69,
+    "topic": "Software Development",
     "language": "en",
-    "prompt": "What are the most effective approaches to scaling ion trap quantum computing from small-scale demonstration projects to large-scale systems capable of solving real-world problems? This research should investigate the various proposed scaling strategies, assess their feasibility, and evaluate which approaches are most likely to succeed based on current technological advancements and practical implementation challenges.",
+    "prompt": "Please provide a detailed explanation of the differences and connections between Google's recently released A2A protocol and the MCP protocol. Furthermore, elaborate on the innovative aspects of the A2A protocol and the specific problems it is designed to address.",
 }
 
 
