@@ -22,8 +22,8 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |10.  | :golf: Building a Corrective RAG - Integrating Web Search as a fallback knowledge base |  [Watch](https://youtu.be/vAJqCDaU9Oc)   | 46:34    |
 |11.  | :raising_hand: Human in the Loop - Interrupting your Agentic Workflow for user input |  [Watch](https://youtu.be/2Ox8Plu-uKw)   | 26:43    |
 |12.  | :telescope: Vector Embeddings for Semantic Analysis - Introducing Google Gemini Embedding Models |  [Watch](https://youtu.be/r1cZWdjKK7A?si)   | 28:33    |
-|13.  | :telescope: Model Context Protocol (MCP) from scratch - Connecting your AI Agents with external servers and tools |  [Watch](https://youtu.be/lWt55CYtZNo)   | 22:43    |
-|14.  | :telescope: Prompt Chaining - Agentic Workflow Design Pattern |  [Watch](https://youtu.be/DL6cGf7ZTlE)   | 23:19    |
+|13.  | :part_alternation_mark: Model Context Protocol (MCP) from scratch - Connecting your AI Agents with external servers and tools |  [Watch](https://youtu.be/lWt55CYtZNo)   | 22:43    |
+|14.  | :link: Prompt Chaining - Agentic Workflow Design Pattern |  [Watch](https://youtu.be/DL6cGf7ZTlE)   | 23:19    |
 
 ---
 
