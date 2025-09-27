@@ -23,6 +23,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |11.  | :raising_hand: Human in the Loop - Interrupting your Agentic Workflow for user input |  [Watch](https://youtu.be/2Ox8Plu-uKw)   | 26:43    |
 |12.  | :telescope: Vector Embeddings for Semantic Analysis - Introducing Google Gemini Embedding Models |  [Watch](https://youtu.be/r1cZWdjKK7A?si)   | 28:33    |
 |13.  | :telescope: Model Context Protocol (MCP) from scratch - Connecting your AI Agents with external servers and tools |  [Watch](https://youtu.be/lWt55CYtZNo)   | 22:43    |
+|14.  | :telescope: Prompt Chaining - Agentic Workflow Design Pattern |  [Watch](https://youtu.be/DL6cGf7ZTlE)   | 23:19    |
 
 ---
 
@@ -171,6 +172,18 @@ We will build a Retrieval module that retrieves essential documents and performs
 
 
 - **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/mcp)
+
+---
+
+### :pushpin: Episode 14: Prompt Chaining | Agentic Workflow Design Pattern | LangChain, LangGraph | Python
+
+<img src="./media/prompt-chaining.png" width=650 height=300>
+
+- **Link**: [Watch here](https://youtu.be/DL6cGf7ZTlE)
+- **Description**:   This video dives deep into Prompt Chaining, a powerful Agentic Workflow Design Pattern that lets you build complex, multi-step AI applications. In this deep-dive tutorial, we break down the theory and practice of chaining multiple Large Language Model (LLM) calls together to solve complex, multi-step problems that a single prompt simply can't handle.
+
+
+- **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/prompt-chaining-design-pattern)
 
 ---
 
