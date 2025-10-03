@@ -24,7 +24,7 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |12.  | :telescope: Vector Embeddings for Semantic Analysis - Introducing Google Gemini Embedding Models |  [Watch](https://youtu.be/r1cZWdjKK7A?si)   | 28:33    |
 |13.  | :part_alternation_mark: Model Context Protocol (MCP) from scratch - Connecting your AI Agents with external servers and tools |  [Watch](https://youtu.be/lWt55CYtZNo)   | 22:43    |
 |14.  | :link: Prompt Chaining - Agentic Workflow Design Pattern |  [Watch](https://youtu.be/DL6cGf7ZTlE)   | 23:19    |
-
+|15.  | :twisted_rightwards_arrows: Routing - Agentic Workflow Design Pattern - Agent that summarizes social media profile |  [Watch]()   | 28:31    |
 ---
 
 ### :pushpin: Episode 1: Building a Referral Outreach Agentic Workflow in LangChain | LangGraph, Python (from scratch)
@@ -184,6 +184,16 @@ We will build a Retrieval module that retrieves essential documents and performs
 
 
 - **Code**: [View Source Code](https://github.com/SauravP97/AI-Engineering-101/tree/main/prompt-chaining-design-pattern)
+
+---
+
+### :pushpin: Episode 15: Routing | Agentic Workflow Design Pattern | LangChain, LangGraph | Python
+
+<img src="./media/routing.png" width=550 height=300>
+
+- **Link**: [Watch here]()
+- **Description**: Dive into the Routing Agentic Workflow Design Pattern! Learn how to build sophisticated, multi-step AI workflows where an agent intelligently routes tasks to specialized tools or other agents.
+In this hands-on tutorial, we'll implement a practical example: an AI Agent that summarizes a social media profile.
 
 ---
 
