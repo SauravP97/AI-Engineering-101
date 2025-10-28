@@ -336,7 +336,7 @@ def worker(agent_state: DeepResearchSharedState):
 
 def append_to_model_output_file(task_id: int, prompt: str, research_report: str):
     """Append the model output to a JSONL file"""
-    filename = "research_output/model_output/output.jsonl"
+    filename = "research_output/model_output/output_chinese.jsonl"
     model_output = {"id": task_id, "prompt": prompt, "article": research_report}
 
     try:
@@ -350,7 +350,7 @@ def append_to_model_output_file(task_id: int, prompt: str, research_report: str)
         existing_data.append(model_output)
 
     with open(filename, "w") as file:
-        json.dump(existing_data, file, indent=4)
+        json.dump(existing_data, file, indent=4, ensure_ascii=False)
 
 
 ## Runner Method ##
@@ -368,12 +368,7 @@ def start_deep_research(task):
         file_object.write(response)
 
 
-task = {
-    "id": 69,
-    "topic": "Software Development",
-    "language": "en",
-    "prompt": "Please provide a detailed explanation of the differences and connections between Google's recently released A2A protocol and the MCP protocol. Furthermore, elaborate on the innovative aspects of the A2A protocol and the specific problems it is designed to address.",
-}
+task = {"id": 26, "topic": "Health", "language": "zh", "prompt": "为我调研在慢性抗原刺激下（如肿瘤微环境或HIV潜伏感染），CD8+ T细胞线粒体动力学（融合/裂变平衡）如何通过调控表观遗传重塑（如m6A修饰、乳酸介导的组蛋白乳酸化）驱动终末耗竭与组织驻留记忆（Trm）细胞命运分岔，基于代谢-表观遗传互作网络定量建模"}
 
 
 start_deep_research(task)
