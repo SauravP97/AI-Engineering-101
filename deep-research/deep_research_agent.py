@@ -368,7 +368,7 @@ def start_deep_research(task):
         file_object.write(response)
 
 
-task = {"id": 26, "topic": "Health", "language": "zh", "prompt": "为我调研在慢性抗原刺激下（如肿瘤微环境或HIV潜伏感染），CD8+ T细胞线粒体动力学（融合/裂变平衡）如何通过调控表观遗传重塑（如m6A修饰、乳酸介导的组蛋白乳酸化）驱动终末耗竭与组织驻留记忆（Trm）细胞命运分岔，基于代谢-表观遗传互作网络定量建模"}
+task = {"id": 50, "topic": "Social Life", "language": "zh", "prompt": "收集整理有关孩子身心健康成长的相关资料，比如怎样合理安排学习、生活、兴趣爱好，以及怎样找到合适自己的目标方向"}
 
 
 start_deep_research(task)
