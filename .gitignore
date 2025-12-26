@@ -21,3 +21,4 @@ prompt-chaining-design-pattern/.env
 routing-design-pattern/.env
 orchestrator-worker-design-pattern/.env
 evaluator-optimizer-agent/.env
+self-evolution-google/.env
