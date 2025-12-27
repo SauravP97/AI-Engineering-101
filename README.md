@@ -199,3 +199,7 @@ In this hands-on tutorial, we'll implement a practical example: an AI Agent that
 
 More episodes coming up...
 Stay tuned, and subscribe to the [channel](https://www.youtube.com/@saurav_prateek_) :smiley:
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SauravP97/AI-Engineering-101&type=date&legend=top-left)](https://www.star-history.com/#SauravP97/AI-Engineering-101&type=date&legend=top-left)
