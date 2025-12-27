@@ -25,6 +25,9 @@ Visit the Playlist [here](https://www.youtube.com/playlist?list=PL3tZ_eA1QJswSQr
 |13.  | :part_alternation_mark: Model Context Protocol (MCP) from scratch - Connecting your AI Agents with external servers and tools |  [Watch](https://youtu.be/lWt55CYtZNo)   | 22:43    |
 |14.  | :link: Prompt Chaining - Agentic Workflow Design Pattern |  [Watch](https://youtu.be/DL6cGf7ZTlE)   | 23:19    |
 |15.  | :twisted_rightwards_arrows: Routing - Agentic Workflow Design Pattern - Agent that summarizes social media profile |  [Watch](https://youtu.be/BVbpTtYFVLE?si=MRT2Hzm5NJbdNZUg)   | 28:31    |
+|16.  | :twisted_rightwards_arrows: Agent Builder by OpenAI |  [Watch](https://youtu.be/_2WllOxJp9o?si=yvG497CxUaoca4U4)   | 27:07    |
+|17.  | :twisted_rightwards_arrows: Orchestrator - Worker Design Pattern - Powering Deep Research agents |  [Watch](https://youtu.be/ObVNv49S9K4?si=g9n5z0dN6peuab3I)   | 39:20    |
+|18.  | :twisted_rightwards_arrows: Evaluator - Optimizer Design Pattern - Human in the Loop |  [Watch](https://youtu.be/SknYgMpC-VI?si=IPN3VJLD6z3Kx_Et)   | 26:12    |
 ---
 
 ### :pushpin: Episode 1: Building a Referral Outreach Agentic Workflow in LangChain | LangGraph, Python (from scratch)
